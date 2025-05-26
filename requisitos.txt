@@ -1,0 +1,20 @@
+# Criar group de recurso
+az group create --name <resource-group-name> --location <location>
+
+# Azure CLI criar recurso Machine learning
+az ml workspace create --name <workspace-name> --resource-group <resource-group-name> --location <location>
+
+# Azure CLI criar recurso Storage
+az storage account create --name <storage-account-name> --resource-group <resource-group-name> --location <location> --sku Standard_LRS
+
+# Azure CLI criar recurso Key Vault
+az keyvault create --name <key-vault-name> --resource-group <resource-group-name> --location <location>
+
+# Azure CLI criar recurso Application Insights
+az monitor app-insights component create --app <app-insights-name> --location <location> --resource-group <resource-group-name> --application-type web
+
+
+
+
+
+
